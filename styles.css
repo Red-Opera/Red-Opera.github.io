@@ -1,0 +1,71 @@
+/* 공통 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 본문 기본 스타일 */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* 헤더 스타일 */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* 섹션 공통 스타일 */
+  section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* 경력 및 학력 항목 스타일 */
+  .job, .school {
+    margin-bottom: 15px;
+  }
+  
+  .job h3, .school h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  /* 목록 스타일 */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* 푸터 스타일 */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
